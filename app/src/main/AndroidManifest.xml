@@ -123,6 +123,7 @@
                 android:name=".ReCaptchaActivity"
                 android:label="@string/recaptcha" />
 
+
         <receiver android:name="org.schabi.newpipe.RouterActivity$FetcherService$NetworkStateReceiver"
                   android:exported="true" android:enabled="false"/>
         <provider

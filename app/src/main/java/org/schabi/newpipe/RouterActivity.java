@@ -627,7 +627,7 @@ public class RouterActivity extends AppCompatActivity {
             super.onCreate();
             startForeground(ID, createNotification().build());
         }
-
+        
         @Override
         protected void onHandleIntent(@Nullable final Intent intent) {
             if (hasActiveNetwork()) {
